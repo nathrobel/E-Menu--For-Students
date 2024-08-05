@@ -1,0 +1,51 @@
+*{
+  background-color: #F5F5F5;
+  box-sizing: border-box;
+  font-family: Garamond;
+}
+
+#Logo {
+  position: absolute;
+  margin: 0;
+  top: 20%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border-radius: 1.5625em;
+}
+
+#maintitle {
+  position: absolute;
+  margin: 0;
+  top: 25%;
+  left: 50%;
+  width: 80%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: block;
+  font-size: 3em;
+  margin-top: 2em;
+  text-align: center;
+  border-style: solid;
+  border-radius: 1.5625em;
+  border-color: black;
+  color: white;
+  background-color: #660099;
+  font-family: Garamond;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#par1 {
+  position: absolute;
+  margin: 0;
+  top: 43%;
+  left: 10%;
+  width: 80%;
+  display: block;
+  font-size: 2em;
+  text-align: center;
+  font-family: Brush Script MT;
+  font-style: italic;
+}

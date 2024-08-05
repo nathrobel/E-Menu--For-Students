@@ -1,0 +1,23 @@
+footer {
+	text-align: center;
+	padding: 0.1875em;
+	color: #AF69EF;
+	border: none;
+	position: absolute;
+	margin: 0;
+	top: 110%;
+	left: 50%;
+	width: 80%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	border-style: solid;
+	border-radius: 1.5625em;
+	border-color: black;
+	height: 8.65%;
+}
+
+#parAdd {
+	color: black;
+}
+
+

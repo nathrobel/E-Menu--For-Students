@@ -1,0 +1,64 @@
+div.search input[type=text] {
+  padding: 0.625em;
+  font-size: 1.0625em;
+  border: 0.25em solid #D9DDDC;
+  border-radius: 1.5625em;
+  float: center;
+  width: 70%;
+  position: absolute;
+  margin: 0;
+  top: 55%;
+  left: 46%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+div.search button {
+  position: absolute;
+  margin: 0;
+  top: 55.2%;
+  left: 86%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 8.5%;
+  height: 7%;
+  padding: 0.3em;
+  background: White;
+  color: Black;
+  font-size: 1.5625em;
+  border: 0.125em solid #D9DDDC;
+  border-radius: 1.5625em;
+  cursor: pointer;
+  font-size: 1.5625em;
+}
+
+
+
+div.search button:hover {
+  background: #A020F0;
+}
+
+
+.accordion-select {
+	width: 12.5em;
+	font-size: 1.5em;
+	
+}
+
+#cuisine {
+	width: 12.5em;
+	font-size: 1.5em;
+	
+}
+
+#time {
+	width: 12.5em;
+	font-size: 1.5em;
+	
+}
+
+#difficulty {
+	width: 12.5em;
+	font-size: 1.5em;
+	
+}

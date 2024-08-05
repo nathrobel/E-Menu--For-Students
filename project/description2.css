@@ -1,0 +1,79 @@
+.description {
+  position: absolute;
+  top: 50%;
+  width: 80%;
+  transform: translate(12%, 0%);
+  display: block;
+  font-size: 1.1em;
+  margin-top: 2em;
+  text-align: left;
+  border-style: solid;
+  border-radius: 25px;
+  background-color: #F5F5F5;
+}
+
+#x{
+  position: static;
+  margin: 0;
+  top: 8%;
+  left: 0%;
+  width: 100%;
+  border-style: solid;
+  border-radius: 25px;
+  background-color: #AF69EF;
+}
+
+h1{
+  background-color: #A23BEC;
+  border-radius: 25px;
+  border-style: solid;
+  font-family: Garamond;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2{
+  position: static;
+  margin: 0;
+  top: 8%;
+  left: 0%;
+  width: 100%;
+  font-family: Garamond;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2em;
+  border-style: none;
+  text-align: center;
+}
+
+h3{
+  background-color: #AF69EF;
+  text-align: center;
+}
+li{
+  text-align: left;margin-left: 7%;
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}

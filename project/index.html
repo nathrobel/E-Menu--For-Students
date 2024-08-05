@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>E-Menu</title>
+  <link rel="stylesheet" href="function.css">
+  <link rel="stylesheet" href="frontpage.css">
+  <link rel="stylesheet" href="search.css">
+  <link rel="stylesheet" href="description.css">
+  <link rel="stylesheet" href="report.css">
+  <script src="popup.js"> </script>
+</head>
+
+<body>
+  <div class="header">
+    <img id="Logo" src="logo.png" alt="Logo" width="175" height="175">
+    <h1 id="maintitle">E-Menu for Students</h1>
+    <p id="par1">An ideal place for online recipes</p>
+  </div>
+  <div class="search" action="action_page.php">
+    <form action="/search.php" method="get">
+      <input type="text" placeholder="What do you want to cook today? " name="search">
+      <button type="submit">&#128269;</button>
+    </form>
+  </div>
+  <div class="function" id="function-1">
+    
+    
+    <div class="overlay"></div>
+    <div class="maincon">
+      <div class="close_btn" onclick="togglePopup()">&times;</div>
+      <h2>Advanced Search</h2>
+      <div class="wrap-collabsible">
+        <br>
+        <form action="/adv_search.php" method="get">
+          <select id="diet" name="filter" size="1" tabindex="2">
+            <option value selected>Any diet</option>
+            <option value="Vegatarian">Vegetarian </option>
+            <option value="Vegan">Vegan </option>
+            <option value="Halal">Halal </option>
+            <option value="Kosher">Kosher </option>
+          </select>
+          <br>
+          <select id="cuisine" name="filter" size="1" tabindex="2">
+            <option value selected>Any cuisine</option>
+            <option value="Chinese">Chinese </option>
+            <option value="Indian">Indian </option>
+            <option value="French">French </option>
+            <option value="Italian">Italian </option>
+            <option value="Spanish">Spanish </option>
+            <option value="Sri Lankan">Sri Lankan </option>
+          </select>
+          <br>
+          <select id="time" name="Time" size="1" tabindex="2">
+            <option value selected>Any time</option>
+            <option value="10min">0-10 min</option>
+            <option value="20min">10-20 min</option>
+            <option value="30min">20-30 min </option>
+            <option value="45min">30-45 min </option>
+            <option value="60min">45-60 min </option>
+            <option value="+60min">+60 min</option>
+          </select>
+          <br>
+          <select id="difficulty" name="Difficulty" size="1" tabindex="2">
+            <option value selected>Any difficulty</option>
+            <option value="Easy">Easy</option>
+            <option value="Medium">Medium</option>
+            <option value="Difficult">Difficult </option>
+          </select>
+          <br>
+          <br>
+          <br>
+          <button type="submit"><img src="searchbutton.png" alt="Search" width="40" height="40"></button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <button onclick="togglePopup()" id="advsearch">Advanced Search</button>
+  <button onclick="getRecipe()" id="lucky">Feeling Lucky?</button>
+  <div class="description">
+    <h2>Description</h2>
+    <p id="par2">Ever stared at your section of the fridge, with no idea of what to make?<br>
+      Got dietary requirements? Feeling like a specific cuisine? Kitchen's oven is broken again? No problem; we've got
+      you covered!<br>
+      Use the search function to find a recipe, or narrow down your choices with the 'Advanced Search' function!</p>
+  </div>
+
+  <footer>
+    <p id="parAdd"> If you have any new recipe suggestions, let us know!
+      <a href="https://forms.office.com/pages/responsepage.aspx?id=B8tSwU5hu0qBivA1z6kad59lss_JtbtNhg2cshhfjydUOEI3QVkwRE1WU0lYQTlWNUFDN0hDOUE3Mi4u"
+        target="_blank"> Suggestions</a>
+      &nbsp; | &nbsp; If you encounter any issues, please let us know!
+      <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=B8tSwU5hu0qBivA1z6kadxxsuxBT9pdKmnFoW_1JARRURFk1VFkzVURWSTdXMkZFT1pNNUlSMUIxWi4u"
+        target="_blank"> Report </a>
+    </p>
+  </footer>
+</body>
+
+</html>
